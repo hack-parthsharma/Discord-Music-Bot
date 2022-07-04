@@ -1,0 +1,17 @@
+[package]
+name = "discord_music_bot"
+version = "0.1.0"
+authors = ["Willi Ye <williye97@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0"
+rand = "0.7.2"
+ctrlc = "3.1.3"
+
+[dependencies.serenity]
+default-features = true
+features = ["voice"]
+version = "0.7"
